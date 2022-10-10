@@ -3,3 +3,66 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: white;
+}
+
+header{
+
+    /* degub */
+    height: 1000px;
+    background-color: deepskyblue;
+
+}
+
+.plan-price{
+
+    /* debug */
+    height: 1500px;
+    background-color: blueviolet;
+}
+
+.contact{
+
+    /* debug */
+    height: 500px;
+    background-color: yellow;
+}
+
+.function{
+
+    /* debug */
+    height: 1300px;
+    background-color: violet;
+}
+
+
+.partner{
+
+    /* debug */ 
+    height: 1000px;
+    background-color: tomato;
+}
+
+.demo{
+
+    /* debug */
+    height: 500px;
+    background-color: teal;
+}
+
+.faq{
+
+    /* debug */
+    height: 1000px;
+    background-color: seagreen;
+}
+
+footer{
+
+    /* debug */
+    background-color: black;
+    height: 800px;
+
+}
