@@ -1,68 +1,182 @@
-*{
-    border: 0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: white;
 }
 
-header{
+/* ////////////// HEADER ////////////// */
 
+header {
+    height: 85vh;
     /* degub */
-    height: 1000px;
+
     background-color: deepskyblue;
 
 }
 
-.plan-price{
+.headertop {
+    width: 100%;
+    background-color: white;
 
     /* debug */
-    height: 1500px;
+    height: 10vh;
+
+
+}
+
+.jumbotron {
+    width: 75vw;
+
+
+
+    /* debug */
+    border: dashed 5px black;
+    height: 60vh;
+    margin: 150px auto;
+}
+
+/* ////////////// MAIN ////////////// */
+
+
+.plan-price {
+    padding: 100px;
+
+    /* debug */
     background-color: blueviolet;
+    height: 140vh;
 }
 
-.contact{
+.container-price {
+
+    max-width: 60vw;
+    margin: 0 auto;
 
     /* debug */
-    height: 500px;
+    border: dashed 5px black;
+    height: 120vh;
+}
+
+
+.contact {
+    width: 100%;
+
+
+    /* debug */
+
     background-color: yellow;
+    height: 70vh;
 }
 
-.function{
+.container-contact {
+    width: 60vw;
+    margin: 0 auto;
 
     /* debug */
-    height: 1300px;
+    height: 70vh;
+    border: dashed 5px black;
+
+}
+
+.function {
+
+    /* debug */
+    height: 115vh;
     background-color: violet;
 }
 
+.container-function {
+    width: 60vw;
+    margin: 0 auto;
 
-.partner{
+    /* debug */
+    height: 115vh;
+    border: dashed 5px black;
 
-    /* debug */ 
-    height: 1000px;
+}
+
+
+.partner {
+
+    /* debug */
+    height: 100vh;
     background-color: tomato;
 }
 
-.demo{
+.title-function {
+    width: 60vw;
+    margin: 0 auto;
+    margin-bottom: 10vh;
+
+    /* debug */
+    height: 25vh;
+    border: dashed 5px black;
+
+}
+
+.partner-block {
+
+    /* debug */
+    height: 65vh;
+    border: dashed 5px black;
+}
+
+.demo {
 
     /* debug */
     height: 500px;
     background-color: teal;
 }
 
-.faq{
+.faq {
 
     /* debug */
-    height: 1000px;
+    height: 75vh;
     background-color: seagreen;
 }
 
-footer{
+.container-faq {
+
+    width: 60vw;
+    margin: 0 auto;
+
+    /* debug */
+    height: 75vh;
+    border: dashed 5px black;
+}
+
+/* ////////////// FOOTER ////////////// */
+
+footer {
 
     /* debug */
     background-color: black;
-    height: 800px;
+    height: 60vh;
 
+}
+
+.footer-c {
+    width: 75vw;
+    margin: 0 auto;
+
+
+
+}
+
+.f-top {
+
+
+    /* debug */
+    border: dashed 5px rgb(255, 255, 255);
+    height: 40vh;
+}
+
+.f-bottom {
+
+    /* debug */
+    border: dashed 5px rgb(255, 255, 255);
+    height: 20vh;
 }
