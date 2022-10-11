@@ -69,10 +69,11 @@ header {
     background-color: rgb(147, 137, 220);
     color: rgb(255, 255, 255);
     padding: 10px 15px;
+    text-decoration: none;
 }
 
 .jumbotron {
-    width: 70vw;
+    width: 60vw;
     margin: 0 auto;
     padding-top: 100px;
 }
@@ -85,7 +86,7 @@ header {
 }
 
 .content-jumbotron{
-    width: 60vw;
+
     display: flex;
     justify-content: space-between;
     gap: 100px;
@@ -116,39 +117,92 @@ header {
 
 /* ////////////// MAIN ////////////// */
 
+/*CLASSE GENERALE CONTAINER*/
+
+.container{
+
+    width: 55vw;
+    margin: 0 auto;
+}
 
 .plan-price {
     padding: 100px;
 
     /* debug */
-    background-color: blueviolet;
-    height: 140vh;
+
 }
 
-.container-price {
-
-    max-width: 60vw;
-    margin: 0 auto;
-
-    /* debug */
-    border: dashed 5px black;
-    height: 120vh;
+.c-price h1{
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+.roundbox{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-right: 50px;
+    
 }
 
+/*Style cards*/
+
+.container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card{
+    width: calc((100% - 100px) / 3);
+    border: solid 2px black;
+    margin-top: 100px;
+}
+
+.type{
+    border-bottom: solid 1px black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.content-c{
+    line-height: 40px;
+    margin-bottom: 20px;
+    padding:30px;
+    font-size: 20px;
+}
+.btn-c{
+    line-height: 70px;
+}
+
+/*Cards orizzontale*/
+.h-cards{
+    width: 100%;
+    border: solid 1px black;
+
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.type-h{
+    margin-top: 40px;
+    border: solid 1px black;
+    text-align: center;
+    padding: 10px;
+}
 
 .contact {
     width: 100%;
-
-
     /* debug */
 
     background-color: yellow;
     height: 70vh;
 }
 
-.container-contact {
-    width: 60vw;
-    margin: 0 auto;
+.c-contact {
 
     /* debug */
     height: 70vh;
@@ -163,9 +217,8 @@ header {
     background-color: violet;
 }
 
-.container-function {
-    width: 60vw;
-    margin: 0 auto;
+.c-function {
+
 
     /* debug */
     height: 115vh;
@@ -182,8 +235,7 @@ header {
 }
 
 .title-function {
-    width: 60vw;
-    margin: 0 auto;
+
     margin-bottom: 10vh;
 
     /* debug */
@@ -213,10 +265,9 @@ header {
     background-color: seagreen;
 }
 
-.container-faq {
+.c-faq {
 
-    width: 60vw;
-    margin: 0 auto;
+
 
     /* debug */
     height: 75vh;
