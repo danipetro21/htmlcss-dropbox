@@ -55,6 +55,10 @@ header {
     margin-left: 30px;
 }
 
+.headertop .btn{
+    color: white;
+}
+
 /*DA RIVEDERE IL COLOR*/
 
 #logo{
@@ -154,12 +158,12 @@ header {
 
 .card{
     width: calc((100% - 100px) / 3);
-    border: solid 2px black;
+    border: solid 2px rgb(188, 186, 186);
     margin-top: 100px;
 }
 
 .type{
-    border-bottom: solid 1px black;
+    border-bottom: solid 2px rgb(188, 186, 186);
     text-align: center;
     padding: 10px;
 }
@@ -178,7 +182,7 @@ header {
 /*Cards orizzontale*/
 .h-cards{
     width: 100%;
-    border: solid 1px black;
+    border: solid 2px rgb(188, 186, 186);
 
     /* flex */
     display: flex;
@@ -189,26 +193,39 @@ header {
 
 .type-h{
     margin-top: 40px;
-    border: solid 1px black;
+    border: solid 2px rgb(188, 186, 186);
     text-align: center;
     padding: 10px;
 }
 
-.contact {
-    width: 100%;
-    /* debug */
-
-    background-color: yellow;
-    height: 70vh;
-}
 
 .c-contact {
+    /* flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    /* debug */
-    height: 70vh;
-    border: dashed 5px black;
 
 }
+.c-contact img{
+    width: 900px;
+}
+
+.information{  
+    font-size: 25px;
+    padding: 50px;
+}
+
+.information p {
+    margin: 40px 0;
+}
+
+.btn-light{
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+}
+
 
 .function {
 
