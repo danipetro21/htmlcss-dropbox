@@ -1,6 +1,7 @@
 /*FONTS*/
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
 
 * {
     margin: 0;
@@ -14,14 +15,14 @@ body {
 
 }
 
+ul{
+    list-style-type: none;
+}
+
 /* ////////////// HEADER ////////////// */
 
 header {
-    height: 85vh;
-    /* degub */
-
     background-color: deepskyblue;
-
 }
 
 .headertop {
@@ -29,9 +30,8 @@ header {
     background-color: white;
     padding: 0 30px;
     height: 10vh;
-    position: fixed;
+    position: sticky;
     top: 0;
-    left: 0;
     z-index: 500;
     
     /* flex */
@@ -64,6 +64,7 @@ header {
 /*----------------------*/
 
 /*classe generale btn*/
+
 .btn{
     background-color: rgb(147, 137, 220);
     color: rgb(255, 255, 255);
@@ -71,16 +72,46 @@ header {
 }
 
 .jumbotron {
-    width: 75vw;
-    position: relative;
-    top: 250px;
-    left: 0;
-
-
-    /* debug */
-    border: dashed 5px black;
-    height: 60vh;
+    width: 70vw;
     margin: 0 auto;
+    padding-top: 100px;
+}
+
+/*style contenuto jumbotron*/
+
+.jumbotron h1{
+    font-size: 7rem;
+    font-weight: 800;
+}
+
+.content-jumbotron{
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 30px;
+
+    
+}
+
+.lx-content ul{
+    line-height: 50px;
+
+}
+
+.lx-content a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.lx-content p{
+    font-size: 20px;
+    margin-bottom: 20px ;
+}
+
+#jumbo{
+    width: 1000px;
+
 }
 
 /* ////////////// MAIN ////////////// */
