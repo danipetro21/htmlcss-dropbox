@@ -19,6 +19,12 @@ ul{
     list-style-type: none;
 }
 
+
+/*Classe generale per h1 */
+
+.title-c{
+    font-size: 50px;
+}
 /* ////////////// HEADER ////////////// */
 
 header {
@@ -137,7 +143,7 @@ header {
 }
 
 .c-price h1{
-    font-size: 50px;
+    
     margin-bottom: 70px;
 }
 .roundbox{
@@ -239,31 +245,22 @@ header {
     font-size: 20px;
 }
 
-.function h1{
-    font-size: 50px;
-}
 
 
-.partner {
-
-    /* debug */
-    height: 100vh;
-    background-color: tomato;
-}
 
 .title-function {
+    margin-top: 200px;
+}
 
-    margin-bottom: 10vh;
-
-    /* debug */
-    height: 25vh;
-    border: dashed 5px black;
-
+.title-function a{
+    font-size: 20px;
 }
 
 .partner-block {
-
+    margin-top: 150px;
+    width: 100%;
     /* debug */
+    
     height: 65vh;
     border: dashed 5px black;
 }
