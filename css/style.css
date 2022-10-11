@@ -1,3 +1,7 @@
+/*FONTS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +10,8 @@
 
 body {
     background-color: white;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 /* ////////////// HEADER ////////////// */
@@ -21,22 +27,60 @@ header {
 .headertop {
     width: 100%;
     background-color: white;
+    padding: 0 30px;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    
+    /* flex */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
     /* debug */
-    height: 10vh;
 
+}
 
+.lx-header{
+    display: flex;
+    align-items: center;
+}
+
+.headertop a{
+    text-decoration: none;
+    color: rgb(133, 131, 131);
+    font-size: 23px;
+    margin-left: 30px;
+}
+
+/*DA RIVEDERE IL COLOR*/
+
+#logo{
+    width: 170px;
+}
+
+/*----------------------*/
+
+/*classe generale btn*/
+.btn{
+    background-color: rgb(147, 137, 220);
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
 }
 
 .jumbotron {
     width: 75vw;
-
+    position: relative;
+    top: 250px;
+    left: 0;
 
 
     /* debug */
     border: dashed 5px black;
     height: 60vh;
-    margin: 150px auto;
+    margin: 0 auto;
 }
 
 /* ////////////// MAIN ////////////// */
