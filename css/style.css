@@ -226,21 +226,21 @@ header {
     border: solid 1px black;
 }
 
-
-.function {
-
-    /* debug */
-    height: 115vh;
-    background-color: violet;
+.type2{
+    border: none;
 }
 
-.c-function {
+.c-function img{
+    width: 100%;
+}
 
+.function{
+    margin-top: 100px;
+    font-size: 20px;
+}
 
-    /* debug */
-    height: 115vh;
-    border: dashed 5px black;
-
+.function h1{
+    font-size: 50px;
 }
 
 
