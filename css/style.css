@@ -15,16 +15,17 @@ body {
 
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
 
 /*Classe generale per h1 */
 
-.title-c{
+.title-c {
     font-size: 50px;
 }
+
 /* ////////////// HEADER ////////////// */
 
 header {
@@ -39,7 +40,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 500;
-    
+
     /* flex */
     display: flex;
     align-items: center;
@@ -49,25 +50,25 @@ header {
 
 }
 
-.lx-header{
+.lx-header {
     display: flex;
     align-items: center;
 }
 
-.headertop a{
+.headertop a {
     text-decoration: none;
     color: rgb(133, 131, 131);
     font-size: 23px;
     margin-left: 30px;
 }
 
-.headertop .btn{
+.headertop .btn {
     color: white;
 }
 
 /*DA RIVEDERE IL COLOR*/
 
-#logo{
+#logo {
     width: 170px;
 }
 
@@ -75,7 +76,7 @@ header {
 
 /*classe generale btn*/
 
-.btn{
+.btn {
     background-color: rgb(147, 137, 220);
     color: rgb(255, 255, 255);
     padding: 10px 15px;
@@ -90,37 +91,37 @@ header {
 
 /*style contenuto jumbotron*/
 
-.jumbotron h1{
+.jumbotron h1 {
     font-size: 7rem;
     font-weight: 800;
 }
 
-.content-jumbotron{
+.content-jumbotron {
 
     display: flex;
     justify-content: space-between;
     gap: 100px;
     margin-top: 30px;
 
-    
+
 }
 
-.lx-content ul{
+.lx-content ul {
     line-height: 50px;
 
 }
 
-.lx-content a{
+.lx-content a {
     text-decoration: none;
     font-size: 20px;
 }
 
-.lx-content p{
+.lx-content p {
     font-size: 20px;
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
 }
 
-#jumbo{
+#jumbo {
     width: 1000px;
 
 }
@@ -129,7 +130,7 @@ header {
 
 /*CLASSE GENERALE CONTAINER*/
 
-.container{
+.container {
 
     width: 55vw;
     margin: 0 auto;
@@ -142,51 +143,53 @@ header {
 
 }
 
-.c-price h1{
-    
+.c-price h1 {
+
     margin-bottom: 70px;
 }
-.roundbox{
+
+.roundbox {
     text-decoration: none;
     color: black;
     font-size: 25px;
     margin-right: 50px;
-    
+
 }
 
 /*Style cards*/
 
-.container-cards{
+.container-cards {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
 }
 
-.card{
+.card {
     width: calc((100% - 100px) / 3);
     border: solid 2px rgb(188, 186, 186);
     margin-top: 100px;
 }
 
-.type{
+.type {
     border-bottom: solid 2px rgb(188, 186, 186);
     text-align: center;
     padding: 10px;
 }
 
 
-.content-c{
+.content-c {
     line-height: 40px;
     margin-bottom: 20px;
-    padding:30px;
+    padding: 30px;
     font-size: 20px;
 }
-.btn-c{
+
+.btn-c {
     line-height: 70px;
 }
 
 /*Cards orizzontale*/
-.h-cards{
+.h-cards {
     width: 100%;
     border: solid 2px rgb(188, 186, 186);
 
@@ -197,7 +200,7 @@ header {
 
 }
 
-.type-h{
+.type-h {
     margin-top: 40px;
     border: solid 2px rgb(188, 186, 186);
     text-align: center;
@@ -213,11 +216,12 @@ header {
 
 
 }
-.c-contact img{
+
+.c-contact img {
     width: 900px;
 }
 
-.information{  
+.information {
     font-size: 25px;
     padding: 50px;
 }
@@ -226,21 +230,21 @@ header {
     margin: 40px 0;
 }
 
-.btn-light{
+.btn-light {
     background-color: white;
     color: black;
     border: solid 1px black;
 }
 
-.type2{
+.type2 {
     border: none;
 }
 
-.c-function img{
+.c-function img {
     width: 100%;
 }
 
-.function{
+.function {
     margin-top: 100px;
     font-size: 20px;
 }
@@ -252,18 +256,95 @@ header {
     margin-top: 200px;
 }
 
-.title-function a{
+.title-function a {
     font-size: 20px;
 }
+
+/*---------------------------*/
 
 .partner-block {
     margin-top: 150px;
     width: 100%;
-    /* debug */
-    
-    height: 65vh;
-    border: dashed 5px black;
+    height: 70vh;
+
+    /* flex */
+    display: flex;
+
 }
+
+/*Blocchi laterali*/
+.side-block {
+    /* flex */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*blocco dell'immagine */
+.img-block {
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    /* flex */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img-block img{
+    filter:invert(1);
+    width: 50%;
+    
+}
+
+/*blocco centrale*/
+
+.center-block{
+    width: calc(100% / 2);
+}
+.img-block-center {
+    width: 100%;
+    padding: 100px;
+    line-height: 35px;
+    font-size: 20px;
+}
+.img-block-center img{
+    margin-bottom: 40px;
+}
+
+/*colori dei blocchi*/
+
+.green{
+background-color: rgb(175, 210, 123);
+}
+
+.red{
+    background-color: red;
+}
+
+.skyblue{
+    background-color: skyblue;
+
+}
+
+.blue{
+background-color: blue;
+
+}
+
+.yellow{
+background-color: rgb(234, 234, 129);
+
+}
+
+.brown{
+    background-color: brown;
+}
+
+.grey{
+    background-color: rgb(220, 218, 218);
+}
+
+/*------------------------------*/
 
 .demo {
 
