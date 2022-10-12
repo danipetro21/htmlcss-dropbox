@@ -107,7 +107,7 @@ header {
 }
 
 .lx-content ul {
-    line-height: 50px;
+    line-height: 90px;
 
 }
 
@@ -123,6 +123,12 @@ header {
 
 #jumbo {
     width: 1000px;
+
+}
+
+#arrow{
+    font-size: 80px;
+    color: black;
 
 }
 
@@ -186,6 +192,12 @@ header {
 
 .btn-c {
     line-height: 70px;
+}
+
+/*font awesome card color*/
+
+.check i{
+    color: blue;
 }
 
 /*Cards orizzontale*/
@@ -300,6 +312,7 @@ header {
 
 .center-block {
     width: calc(100% / 2);
+    overflow:scroll
 }
 
 .img-block-center {
@@ -379,6 +392,11 @@ header {
 .faq-box{
     font-size: 23px;
     border-bottom: 1px black solid;
+    
+    /* flex*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* ////////////// FOOTER ////////////// */
@@ -388,7 +406,7 @@ footer {
 }
 
 .footer-c {
-    width: 75vw;
+    width: 60vw;
     margin: 0 auto;
 }
 
