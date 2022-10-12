@@ -290,114 +290,134 @@ header {
 
 }
 
-.img-block img{
-    filter:invert(1);
+.img-block img {
+    filter: invert(1);
     width: 50%;
-    
+
 }
 
 /*blocco centrale*/
 
-.center-block{
+.center-block {
     width: calc(100% / 2);
 }
+
 .img-block-center {
     width: 100%;
     padding: 100px;
     line-height: 35px;
     font-size: 20px;
 }
-.img-block-center img{
+
+.img-block-center img {
     margin-bottom: 40px;
 }
 
 /*colori dei blocchi*/
 
-.green{
-background-color: rgb(175, 210, 123);
+.green {
+    background-color: rgb(175, 210, 123);
 }
 
-.red{
+.red {
     background-color: red;
 }
 
-.skyblue{
+.skyblue {
     background-color: skyblue;
 
 }
 
-.blue{
-background-color: blue;
+.blue {
+    background-color: blue;
 
 }
 
-.yellow{
-background-color: rgb(234, 234, 129);
+.yellow {
+    background-color: rgb(234, 234, 129);
 
 }
 
-.brown{
+.brown {
     background-color: brown;
 }
 
-.grey{
+.grey {
     background-color: rgb(220, 218, 218);
 }
 
 /*------------------------------*/
 
 .demo {
-
-    /* debug */
-    height: 500px;
-    background-color: teal;
+    height: 40vh;
+    background-color: rgb(215, 217, 255);
+    /* flex */
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    align-items: center;
+ 
+}
+.demo a{
+    font-size: 25px;
+    border:none;
+    padding: 15px 60px;
+    color: rgb(103, 101, 101);
 }
 
-.faq {
+/*------------------------------*/
 
-    /* debug */
-    height: 75vh;
-    background-color: seagreen;
-}
 
 .c-faq {
+    padding: 200px 0;
+    line-height: 130px;
+}
 
-
-
-    /* debug */
-    height: 75vh;
-    border: dashed 5px black;
+.bordertop{
+    border-top: 1px black solid;
+}
+.faq-box{
+    font-size: 23px;
+    border-bottom: 1px black solid;
 }
 
 /* ////////////// FOOTER ////////////// */
 
 footer {
-
-    /* debug */
     background-color: black;
-    height: 60vh;
-
 }
 
 .footer-c {
     width: 75vw;
     margin: 0 auto;
-
-
-
 }
 
-.f-top {
+.f-top { 
+    padding: 100px 0;
+    /* flex */
+    display: flex;
+    justify-content: space-between;
 
+}
+.f-top h2{
+    margin-bottom: 30px;
+    color: white;
+    font-size: 40px;
+}
 
-    /* debug */
-    border: dashed 5px rgb(255, 255, 255);
-    height: 40vh;
+.f-top a{
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    font-size: 22px;
 }
 
 .f-bottom {
-
-    /* debug */
-    border: dashed 5px rgb(255, 255, 255);
+    color: white;
+    font-size: 25px;
     height: 20vh;
+    /* flex */
+    display: flex;
+    align-items: center;
+
 }
