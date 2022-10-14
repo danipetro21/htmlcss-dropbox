@@ -50,26 +50,30 @@ header {
 
 }
 
-.lx-header {
+.lx-header, .dx-header {
     display: flex;
     align-items: center;
+    
 }
 
-.headertop a {
+.nav {
     text-decoration: none;
     color: rgb(133, 131, 131);
     font-size: 23px;
     margin-left: 30px;
+    line-height: 10vh;
+    margin-right: 20px;
 }
 
 .headertop .btn {
     color: white;
+    
 }
 
 /*OVER NAVBAR*/
 
-.headertop a:hover{
-    border-bottom: 1px solid black;
+.headertop .nav:hover{
+    border-bottom: 3px solid black;
 }
 
 /*DA RIVEDERE IL COLOR*/
@@ -108,6 +112,8 @@ header {
     justify-content: space-between;
     gap: 100px;
     margin-top: 30px;
+    position: relative;
+    bottom: -80px;
 
 
 }
